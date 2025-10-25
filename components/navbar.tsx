@@ -12,7 +12,7 @@ export default function Navbar() {
           <div className="announcement-contents">
             <div className="announcement-text">
               🎉 Studios20 powers 500K+ successful influencer campaigns.{" "}
-              <Link href="#get-started" className="text-white">
+              <Link href="/get-started" className="text-white">
                 Start yours today
               </Link>
             </div>
@@ -70,150 +70,14 @@ export default function Navbar() {
                     Home
                   </Link>
 
-                  {/* Platform Dropdown */}
-                  <div
-                    data-hover="true"
-                    data-delay="200"
-                    className="nav-link dropdown-wide-nav-link w-dropdown"
-                  >
-                    <div className="dropdown-toggle w-dropdown-toggle">
-                      <div>Platform</div>
-                      <Image
-                        src="/webflow/images/icon-dropdown-arrow.svg"
-                        alt="Down arrow icon"
-                        width={12}
-                        height={12}
-                        className="dropdown-arrow"
-                      />
-                    </div>
-                    <nav className="dropdown-wide-wrapper w-dropdown-list">
-                      <div className="dropdown-wide">
-                        <div className="dropdown-wide-menu">
-                          <div className="bold-text dropdown-menu-heading">
-                            Features
-                          </div>
-                          <div className="dropdown-links-grid">
-                            <div className="dropdown-links">
-                              <Link href="#" className="dropdown-link">
-                                Campaign Automation
-                              </Link>
-                              <Link href="#" className="dropdown-link">
-                                Creator Discovery
-                              </Link>
-                              <Link href="#" className="dropdown-link">
-                                Product Seeding
-                              </Link>
-                              <Link href="#" className="dropdown-link">
-                                Performance Analytics
-                              </Link>
-                              <Link href="#" className="dropdown-link">
-                                Content Rights
-                              </Link>
-                              <Link href="#" className="dropdown-link">
-                                UGC Library
-                              </Link>
-                              <Link href="#" className="dropdown-link">
-                                Influencer Gifting
-                              </Link>
-                            </div>
-                            <div className="dropdown-links">
-                              <Link href="#" className="dropdown-link">
-                                Brand Safety
-                              </Link>
-                              <Link href="#" className="dropdown-link">
-                                ROI Tracking
-                              </Link>
-                              <Link href="#" className="dropdown-link">
-                                Campaign Templates
-                              </Link>
-                              <Link href="#" className="dropdown-link">
-                                API Access
-                              </Link>
-                              <Link href="#" className="dropdown-link">
-                                Integrations
-                              </Link>
-                            </div>
-                          </div>
-                        </div>
-
-                        <div className="dropdown-wide-menu">
-                          <div className="bold-text dropdown-menu-heading">
-                            Solutions
-                          </div>
-                          <div className="dropdown-links">
-                            <Link href="#" className="dropdown-link">
-                              Brand Awareness
-                            </Link>
-                            <Link href="#" className="dropdown-link">
-                              Product Launch
-                            </Link>
-                            <Link href="#" className="dropdown-link">
-                              E-commerce Growth
-                            </Link>
-                            <Link href="#" className="dropdown-link">
-                              UGC Generation
-                            </Link>
-                            <Link href="#" className="dropdown-link">
-                              Enterprise
-                            </Link>
-                          </div>
-                        </div>
-
-                        <div className="dropdown-wide-menu">
-                          <div className="bold-text dropdown-menu-heading">
-                            Resources
-                          </div>
-                          <div className="dropdown-links">
-                            <Link href="#" className="dropdown-link">
-                              Case Studies
-                            </Link>
-                            <Link href="#" className="dropdown-link">
-                              Creator Network
-                            </Link>
-                            <Link href="#" className="dropdown-link">
-                              Best Practices
-                            </Link>
-                            <Link href="#" className="dropdown-link">
-                              API Documentation
-                            </Link>
-                            <Link href="#" className="dropdown-link">
-                              Help Center
-                            </Link>
-                          </div>
-                        </div>
-
-                        <div className="dropdown-promo">
-                          <Image
-                            src="/webflow/images/dropdown-promo_compressed.webp"
-                            loading="lazy"
-                            width={668}
-                            height={366}
-                            alt="Campaign Dashboard"
-                            sizes="100vw"
-                            className="dropdown-promo-image"
-                          />
-                          <div>
-                            Launch your first influencer campaign in minutes
-                          </div>
-                          <Link
-                            href="#get-started"
-                            className="button white w-inline-block"
-                          >
-                            <div>Get Started Free</div>
-                          </Link>
-                        </div>
-                      </div>
-                    </nav>
-                  </div>
-
-                  {/* Company Dropdown */}
+                  {/* Services Dropdown */}
                   <div
                     data-hover="true"
                     data-delay="200"
                     className="nav-link dropdown w-dropdown"
                   >
                     <div className="dropdown-toggle w-dropdown-toggle">
-                      <div>Company</div>
+                      <div>Services</div>
                       <Image
                         src="/webflow/images/icon-dropdown-arrow.svg"
                         alt="Down arrow icon"
@@ -226,26 +90,60 @@ export default function Navbar() {
                       <div className="dropdown-list">
                         <div className="dropdown-list-menu">
                           <div>
-                            <Link href="#about" className="dropdown-list-link w-dropdown-link">
-                              About Us
+                            <Link href="/tiktok" className="dropdown-list-link w-dropdown-link">
+                              TikTok Creators
                             </Link>
-                            <Link href="#blog" className="dropdown-list-link w-dropdown-link">
-                              Blog
+                            <Link href="/instagram" className="dropdown-list-link w-dropdown-link">
+                              Instagram Influencers
                             </Link>
-                            <Link href="#careers" className="dropdown-list-link w-dropdown-link">
-                              Careers
-                            </Link>
-                            <Link href="#contact" className="dropdown-list-link w-dropdown-link">
-                              Contact
-                            </Link>
-                            <Link href="#partners" className="dropdown-list-link w-dropdown-link">
-                              Partners
+                            <Link href="/youtube" className="dropdown-list-link w-dropdown-link">
+                              YouTube Partnerships
                             </Link>
                           </div>
                         </div>
                       </div>
                     </nav>
                   </div>
+
+                  {/* How It Works Dropdown */}
+                  <div
+                    data-hover="true"
+                    data-delay="200"
+                    className="nav-link dropdown w-dropdown"
+                  >
+                    <div className="dropdown-toggle w-dropdown-toggle">
+                      <div>How It Works</div>
+                      <Image
+                        src="/webflow/images/icon-dropdown-arrow.svg"
+                        alt="Down arrow icon"
+                        width={12}
+                        height={12}
+                        className="dropdown-arrow"
+                      />
+                    </div>
+                    <nav className="dropdown-list-wrapper w-dropdown-list">
+                      <div className="dropdown-list">
+                        <div className="dropdown-list-menu">
+                          <div>
+                            <Link href="/for-brands" className="dropdown-list-link w-dropdown-link">
+                              For Brands
+                            </Link>
+                            <Link href="/for-creators" className="dropdown-list-link w-dropdown-link">
+                              For Creators
+                            </Link>
+                          </div>
+                        </div>
+                      </div>
+                    </nav>
+                  </div>
+
+                  <Link href="/case-studies" className="nav-link w-nav-link">
+                    Case Studies
+                  </Link>
+
+                  <Link href="/about" className="nav-link w-nav-link">
+                    About
+                  </Link>
 
                   <Link href="#pricing" className="nav-link w-nav-link">
                     Pricing
@@ -258,7 +156,7 @@ export default function Navbar() {
               <Link href="#login" className="nav-link nav-right-link">
                 Sign In
               </Link>
-              <Link href="#get-started" className="button nav-button w-inline-block">
+              <Link href="/get-started" className="button nav-button w-inline-block">
                 <div>Get Started</div>
               </Link>
               <div className="menu-button w-nav-button">
