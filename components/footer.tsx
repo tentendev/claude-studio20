@@ -45,33 +45,18 @@ export default function Footer() {
           >
             <div className="footer-menus-wrapper">
               <div className="footer-menu">
-                <div className="uppercase-text muted">Platform</div>
+                <div className="uppercase-text muted">Services</div>
                 <div className="footer-menu-links">
-                  <Link href="#" className="footer-link">
-                    Campaign Automation
+                  <Link href="/tiktok" className="footer-link">
+                    TikTok Creators
                   </Link>
-                  <Link href="#" className="footer-link">
-                    Creator Discovery
+                  <Link href="/instagram" className="footer-link">
+                    Instagram Influencers
                   </Link>
-                  <Link href="#" className="footer-link">
-                    Product Seeding
+                  <Link href="/youtube" className="footer-link">
+                    YouTube Partnerships
                   </Link>
-                  <Link href="#" className="footer-link">
-                    Analytics
-                  </Link>
-                  <Link href="#" className="footer-link">
-                    UGC Library
-                  </Link>
-                  <Link href="#" className="footer-link">
-                    Content Rights
-                  </Link>
-                  <Link href="#" className="footer-link">
-                    API Access
-                  </Link>
-                  <Link href="#" className="footer-link">
-                    Integrations
-                  </Link>
-                  <Link href="#" className="footer-link">
+                  <Link href="/pricing" className="footer-link">
                     Pricing
                   </Link>
                 </div>
@@ -79,22 +64,28 @@ export default function Footer() {
 
               <div className="footer-columns-wrapper">
                 <div className="footer-menu">
-                  <div className="uppercase-text muted">Solutions</div>
+                  <div className="uppercase-text muted">Results</div>
                   <div className="footer-menu-links">
-                    <Link href="#" className="footer-link">
-                      Brand Awareness
+                    <Link href="/case-studies" className="footer-link">
+                      Case Studies
                     </Link>
-                    <Link href="#" className="footer-link">
-                      Product Launch
+                    <Link href="/clients" className="footer-link">
+                      Clients
                     </Link>
-                    <Link href="#" className="footer-link">
-                      E-commerce
+                    <Link href="/testimonials" className="footer-link">
+                      Testimonials
                     </Link>
-                    <Link href="#" className="footer-link">
-                      UGC Generation
+                  </div>
+                </div>
+
+                <div className="footer-menu">
+                  <div className="uppercase-text muted">How It Works</div>
+                  <div className="footer-menu-links">
+                    <Link href="/for-brands" className="footer-link">
+                      For Brands
                     </Link>
-                    <Link href="#" className="footer-link">
-                      Enterprise
+                    <Link href="/for-creators" className="footer-link">
+                      For Creators
                     </Link>
                   </div>
                 </div>
@@ -102,20 +93,17 @@ export default function Footer() {
                 <div className="footer-menu">
                   <div className="uppercase-text muted">Company</div>
                   <div className="footer-menu-links">
-                    <Link href="#" className="footer-link">
+                    <Link href="/about" className="footer-link">
                       About Us
                     </Link>
-                    <Link href="#" className="footer-link">
+                    <Link href="/blog" className="footer-link">
                       Blog
                     </Link>
-                    <Link href="#" className="footer-link">
-                      Careers
+                    <Link href="/press" className="footer-link">
+                      Press
                     </Link>
-                    <Link href="#" className="footer-link">
+                    <Link href="/get-started" className="footer-link">
                       Contact
-                    </Link>
-                    <Link href="#" className="footer-link">
-                      Partners
                     </Link>
                   </div>
                 </div>
@@ -203,7 +191,14 @@ export default function Footer() {
                   id="w-node-a79342c4-a42c-35c2-9966-9a605c476d37-55b37658"
                   className="small-text muted"
                 >
-                  © 2025 Studios20. All rights reserved.
+                  © 2025 Studios20. All rights reserved. •{" "}
+                  <Link href="/privacy-policy" className="text-link">
+                    Privacy Policy
+                  </Link>{" "}
+                  •{" "}
+                  <Link href="/terms-of-service" className="text-link">
+                    Terms of Service
+                  </Link>
                 </div>
               </div>
               <Link

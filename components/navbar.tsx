@@ -145,7 +145,7 @@ export default function Navbar() {
                     About
                   </Link>
 
-                  <Link href="#pricing" className="nav-link w-nav-link">
+                  <Link href="/pricing" className="nav-link w-nav-link">
                     Pricing
                   </Link>
                 </div>
